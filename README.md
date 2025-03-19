@@ -74,8 +74,22 @@ Additionally, **exception handling** is implemented to manage disconnections and
 
 # HOW TO RUN THE APPLICATION  
 
-### 1️⃣ Clone the Repository  
+### 1.Compile the Code
 ```bash
-git clone https://github.com/your-username/chat-application.git
-cd chat-application
+javac ChatServer.java ChatClient.java
 ```
+### 2.Start the Server
+```bash
+java ChatServer
+```
+### 3.Start Clients (Run in multiple terminals)
+```bash
+java ChatClient
+```
+### Start Chatting!
+Clients can send messages, which will be broadcasted to all connected users.
+The chat continues until the clients disconnect.
+
+# OUTPUTS
+
+![Image](https://github.com/user-attachments/assets/57d91360-8cb1-4a5c-a1ca-85831fb581a1)
