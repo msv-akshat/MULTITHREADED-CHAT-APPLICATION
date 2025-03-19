@@ -86,7 +86,7 @@ java ChatServer
 ```bash
 java ChatClient
 ```
-### Start Chatting!
+### 4.Start Chatting!
 Clients can send messages, which will be broadcasted to all connected users.
 The chat continues until the clients disconnect.
 
